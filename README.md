@@ -21,9 +21,12 @@ Built a production RAG knowledge platform ingesting 500K+ documents (PDF, HTML, 
 
 ### Featured projects
 
+- 🤖 **[agentic-research-assistant](https://github.com/aayushi-jha2018/agentic-research-assistant)** — a tool-using research agent that routes questions to document search, calculator, or SQL lookup tools, with a rule-based planner and an accuracy-scored evaluation harness, CI-tested end to end
+- ⚡ **[streaming-dedup-pipeline](https://github.com/aayushi-jha2018/streaming-dedup-pipeline)** — a Kafka streaming pipeline with at-least-once producer simulation, consumer-side deduplication, and tumbling-window aggregation, validated in CI against a real Kafka broker
+- 🌍 **[terraform-aws-network-module](https://github.com/aayushi-jha2018/terraform-aws-network-module)** — a reusable Terraform module provisioning an AWS VPC (subnets, NAT, routing, security groups), with `fmt`/`validate`/`plan` checked in CI using zero cloud credentials
 - 🔎 **[mini-rag-pipeline](https://github.com/aayushi-jha2018/mini-rag-pipeline)** — chunking, embeddings, and FAISS retrieval over a small doc set, with CI-tested lint and smoke tests
-- ⛓️ **[airflow-etl-demo](https://github.com/aayushi-jha2018/airflow-etl-demo)** — Airflow-orchestrated extract/transform/load DAG, CI-tested end to end
-- ❄️ **[dbt-snowflake-elt-demo](https://github.com/aayushi-jha2018/dbt-snowflake-elt-demo)** — dbt staging/marts models for Snowflake, CI-validated on every push
+- 🪁 **[airflow-etl-demo](https://github.com/aayushi-jha2018/airflow-etl-demo)** — Airflow-orchestrated extract/transform/load DAG with a Great Expectations data-quality gate, CI-tested end to end
+- ❄️ **[dbt-snowflake-elt-demo](https://github.com/aayushi-jha2018/dbt-snowflake-elt-demo)** — dbt staging/marts models for Snowflake, with schema tests proven in CI (including a negative test against injected bad data)
 - 📂 Detailed write-ups (RAG platform, manufacturing data platform, real-time pricing pipeline) are in my [portfolio repo](https://github.com/aayushi-jha2018/portfolio)
 
 ### Core Skills
