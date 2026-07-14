@@ -1,6 +1,6 @@
 # Hi, I'm Aayushi Jha 👋
 
-**AI Data Engineer & GenAI Platform Lead** · 9 years in Data Engineering
+**AI Data Engineer & GenAI Platform Lead** · 8+ years in Data Engineering
 
 📧 aayushijha27@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/aayushi-jha-492778a0) · 📍 India
 
