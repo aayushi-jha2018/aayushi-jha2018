@@ -8,6 +8,19 @@ I design and build data pipelines, RAG systems, and AI-ready data infrastructure
 
 ---
 
+### My journey: Python Developer → Data Engineer → AI Data Engineer
+
+**2017–2021 · Python Developer** (Head Field Solutions → Smile Internet Technologies)
+Built 50+ Python data-source connectors with retry logic and scheduling, designed a PostgreSQL storage schema from scratch, and refactored undocumented legacy stored procedures for a 40% query performance gain.
+
+**2021–2023 · Data Engineer** (Course5 Intelligence → Springbord Systems)
+Scaled that foundation into production platforms: dbt/Redshift ELT pipelines across 5+ concurrent clients, and a Kafka + Databricks streaming rebuild that cut pricing-data latency from 18 hours to under 8 minutes across 70M+ daily events.
+
+**2023–Present · AI Data Engineer** (Bitwise Solutions → KPMG India)
+Extended data engineering into the systems behind production AI: a RAG knowledge platform over 500K+ documents (Bedrock, LangChain, OpenSearch), governed AI-ready lakehouses, and data-quality gates that keep LLM outputs grounded in accurate data.
+
+---
+
 ### What I work on
 
 - Production RAG systems and vector search over large document corpora
@@ -21,14 +34,20 @@ Built a production RAG knowledge platform ingesting 500K+ documents (PDF, HTML, 
 
 ### Featured projects
 
-The write-ups for my actual production work (the RAG platform above, a manufacturing data platform, and a real-time pricing pipeline) are in my [portfolio repo](https://github.com/aayushi-jha2018/portfolio). The repos below are open-source, CI-tested projects I built to show how I approach specific engineering problems -- each README explains the design decisions and includes at least one real failure case the tests catch.
+The write-ups for my actual production work (the RAG platform above, a manufacturing data platform, and a real-time pricing pipeline) are in my [portfolio repo](https://github.com/aayushi-jha2018/portfolio). The repos below are open-source, CI-tested projects I built to show how I approach specific engineering problems, grouped by the career stage they represent -- each README explains the design decisions and includes at least one real failure case the tests catch.
 
-- **[agentic-research-assistant](https://github.com/aayushi-jha2018/agentic-research-assistant)** -- a tool-using research agent: rule-based planner routes questions to a calculator, SQL lookup, or doc search tool, falls back on failure, and is checked against a labeled eval set in CI.
-- **[streaming-dedup-pipeline](https://github.com/aayushi-jha2018/streaming-dedup-pipeline)** -- Kafka producer/consumer demo handling at-least-once delivery: deduplication and tumbling-window aggregation, tested in CI against a real broker.
-- **[terraform-aws-network-module](https://github.com/aayushi-jha2018/terraform-aws-network-module)** -- a reusable VPC module (subnets, NAT, routing, security groups) with `fmt`/`validate`/`plan` running in CI, no cloud credentials needed.
+**Data engineering foundations**
+
+- **[resilient-connector-framework](https://github.com/aayushi-jha2018/resilient-connector-framework)** -- a reusable multi-source ingestion framework: pluggable connectors, retry with backoff, and scheduling, built to run unattended.
 - **[airflow-etl-demo](https://github.com/aayushi-jha2018/airflow-etl-demo)** -- an Airflow DAG (extract/transform/validate/load) with a Great Expectations data-quality gate that's proven in tests to actually reject bad data.
 - **[dbt-snowflake-elt-demo](https://github.com/aayushi-jha2018/dbt-snowflake-elt-demo)** -- staging/marts dbt models for Snowflake, with schema tests that CI proves catch bad data, not just pass on good data.
+- **[streaming-dedup-pipeline](https://github.com/aayushi-jha2018/streaming-dedup-pipeline)** -- Kafka producer/consumer demo handling at-least-once delivery: deduplication and tumbling-window aggregation, tested in CI against a real broker.
+- **[terraform-aws-network-module](https://github.com/aayushi-jha2018/terraform-aws-network-module)** -- a reusable VPC module (subnets, NAT, routing, security groups) with `fmt`/`validate`/`plan` running in CI, no cloud credentials needed.
+
+**AI / GenAI layer**
+
 - **[mini-rag-pipeline](https://github.com/aayushi-jha2018/mini-rag-pipeline)** -- chunking, embeddings, and FAISS retrieval over a small doc set.
+- **[agentic-research-assistant](https://github.com/aayushi-jha2018/agentic-research-assistant)** -- a tool-using research agent: rule-based planner routes questions to a calculator, SQL lookup, or doc search tool, falls back on failure, and is checked against a labeled eval set in CI.
 
 ### Core Skills
 
