@@ -39,6 +39,7 @@ The write-ups for my actual production work (the RAG platform above, a manufactu
 **Data engineering foundations**
 
 - **[resilient-connector-framework](https://github.com/aayushi-jha2018/resilient-connector-framework)** -- a reusable multi-source ingestion framework: pluggable connectors, retry with backoff, and scheduling, built to run unattended.
+- **[pyspark-databricks-lakehouse](https://github.com/aayushi-jha2018/pyspark-databricks-lakehouse)** -- a Databricks-style medallion pipeline (bronze/silver/gold) in PySpark, with data-quality rules proven by tests and a documented Delta Lake migration path.
 - **[airflow-etl-demo](https://github.com/aayushi-jha2018/airflow-etl-demo)** -- an Airflow DAG (extract/transform/validate/load) with a Great Expectations data-quality gate that's proven in tests to actually reject bad data.
 - **[dbt-snowflake-elt-demo](https://github.com/aayushi-jha2018/dbt-snowflake-elt-demo)** -- staging/marts dbt models for Snowflake, with schema tests that CI proves catch bad data, not just pass on good data.
 - **[streaming-dedup-pipeline](https://github.com/aayushi-jha2018/streaming-dedup-pipeline)** -- Kafka producer/consumer demo handling at-least-once delivery: deduplication and tumbling-window aggregation, tested in CI against a real broker.
